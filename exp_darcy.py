@@ -7,11 +7,11 @@ import torch.nn.functional as F
 from tqdm import *
 from utils.testloss import TestLoss
 from einops import rearrange
-from model.PCSM_Structured_Mesh import Model
+from model.HPM_Structured_Mesh import Model
 from utils.normalizer import UnitTransformer
 import matplotlib.pyplot as plt
 
-parser = argparse.ArgumentParser('PCSM')
+parser = argparse.ArgumentParser('HPM')
 
 parser.add_argument('--lr', type=float, default=1e-3)
 parser.add_argument('--epochs', type=int, default=500)
@@ -30,7 +30,7 @@ parser.add_argument('--unified_pos', type=int, default=0)
 parser.add_argument('--ref', type=int, default=8)
 parser.add_argument('--freq_num', type=int, default=32)
 parser.add_argument('--eval', type=int, default=0)
-parser.add_argument('--save_name', type=str, default='PCSM')
+parser.add_argument('--save_name', type=str, default='HPM')
 parser.add_argument('--data_path', type=str, default='/data/fno')
 parser.add_argument('--const_training_loss', type=int, default=0)
 args = parser.parse_args()

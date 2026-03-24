@@ -13,4 +13,4 @@ python exp_darcy.py \
     --downsample 5 \
     --data_path ${data_root} \
     --ntrain 1000 \
-    --save_name Darcy_PCSM
+    --save_name Darcy_HPM

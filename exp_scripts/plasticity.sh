@@ -14,4 +14,4 @@ python exp_plasticity.py \
     --eval 0 \
     --data_path ${data_root} \
     --ntrain 900 \
-    --save_name Plas_PCSM
+    --save_name Plas_HPM

@@ -14,4 +14,4 @@ python exp_airfoil.py \
     --eval 0 \
     --data_path ${data_root} \
     --ntrain 1000 \
-    --save_name Airfoil_PCSM
+    --save_name Airfoil_HPM

@@ -1,5 +1,5 @@
 
-# Code for PCSM
+# Code for HPM
 
 We provide the experimental code for Darcy Flow, Navier-Stokes, Airfoil, and Plasticity.
 Additional code will be provided in the next version.
@@ -8,8 +8,8 @@ Additional code will be provided in the next version.
 
 Create and activate an Anaconda Environment:
 ```
-conda create -n PCSM python=3.8
-conda activate PCSM
+conda create -n HPM python=3.8
+conda activate HPM
 ```
 
 Install required packages with the following commands:
@@ -37,13 +37,13 @@ bash ./exp_scripts/darcy.sh [The Directory of Downloaded Data]
 
 - Navier-Stokes:
 ```
-bash ./exp_scripts/darcy.sh [The Directory of Downloaded Data]
+bash ./exp_scripts/ns.sh [The Directory of Downloaded Data]
 # The Provided Directory should be like: XXX/Navier-Stokes
 ```
 
 - Airfoil:
 ```
-bash ./exp_scripts/ns.sh [The Directory of Downloaded Data]
+bash ./exp_scripts/airfoil.sh [The Directory of Downloaded Data]
 # The Provided Directory should be like: XXX/naca
 ```
 

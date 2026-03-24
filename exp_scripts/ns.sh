@@ -12,4 +12,4 @@ python exp_ns.py \
     --eval 0 \
     --data_path ${data_root} \
     --ntrain 1000 \
-    --save_name NS_PCSM
+    --save_name NS_HPM
