@@ -28,8 +28,8 @@ parser.add_argument('--freq_num', type=int, default=64)
 parser.add_argument('--spectral_pos_embedding', type=int, default=0)
 parser.add_argument('--eval', type=int, default=0)
 parser.add_argument('--save_name', type=str, default='HPM')
-parser.add_argument('--data_path', type=str, default='/data/fno/Composites.mat')
-parser.add_argument('--lbo_path', type=str, default='/data/fno/Composites_LBO_basis/Composites_LBO_basis.mat')
+parser.add_argument('--data_path', type=str, default='/data/hpm/Composites.mat')
+parser.add_argument('--lbo_path', type=str, default='/data/hpm/Composites_LBO_basis/Composites_LBO_basis.mat')
 args = parser.parse_args()
 eval = args.eval
 save_name = args.save_name

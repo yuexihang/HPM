@@ -28,9 +28,9 @@ parser.add_argument('--spectral_pos_embedding', type=int, default=64)
 parser.add_argument('--domain_change_layer_idx', type=int, default=1)
 parser.add_argument('--eval', type=int, default=0)
 parser.add_argument('--save_name', type=str, default='HPM')
-parser.add_argument('--data_path', type=str, default='/data/fno/HeatTransfer.mat')
-parser.add_argument('--lbo_input_path', type=str, default='/data/fno/HeatTransfer_LBO_basis/lbe_ev_input.mat')
-parser.add_argument('--lbo_output_path', type=str, default='/data/fno/HeatTransfer_LBO_basis/lbe_ev_output.mat')
+parser.add_argument('--data_path', type=str, default='/data/hpm/HeatTransfer.mat')
+parser.add_argument('--lbo_input_path', type=str, default='/data/hpm/HeatTransfer_LBO_basis/lbe_ev_input.mat')
+parser.add_argument('--lbo_output_path', type=str, default='/data/hpm/HeatTransfer_LBO_basis/lbe_ev_output.mat')
 args = parser.parse_args()
 eval = args.eval
 save_name = args.save_name

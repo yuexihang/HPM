@@ -68,7 +68,7 @@ bash ./exp_scripts/irregular_darcy.sh [The Path of Darcy.mat]
 
 - Composite:
 ```
-bash ./exp_scripts/composite.sh [The Path of Composites.mat] [The Path of Composites_LBO_basis.mat]
+bash ./exp_scripts/composite.sh [The Path of Composites.mat] [The Path of Composites_LBO_basis/Composites_LBO_basis.mat]
 ```
 
 - Pipe Turbulence:
@@ -78,12 +78,12 @@ bash ./exp_scripts/pipe_turbulance.sh [The Path of Turbulence.mat]
 
 - BloodFlow:
 ```
-bash ./exp_scripts/bloodflow.sh [The Path of BloodFlow-001.mat] [The Path of LBO_basis.mat]
+bash ./exp_scripts/bloodflow.sh [The Path of BloodFlow-001.mat] [The Path of BloodFlow_LBO_basis/LBO_basis.mat]
 ```
 
 - Heat Transfer:
 ```
-bash ./exp_scripts/heat_transfer.sh [The Path of HeatTransfer.mat] [The Path of lbe_ev_input.mat] [The Path of lbe_ev_output.mat]
+bash ./exp_scripts/heat_transfer.sh [The Path of HeatTransfer.mat] [The Path of HeatTransfer_LBO_basis/lbe_ev_input.mat] [The Path of HeatTransfer_LBO_basis/lbe_ev_output.mat]
 ```
 
 ## Project Structure
@@ -119,18 +119,19 @@ If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{
-yue2025holistic,
-title={Holistic Physics Solver: Learning {PDE}s in a Unified Spectral-Physical Space},
-author={Xihang Yue and Yi Yang and Linchao Zhu},
-booktitle={Forty-second International Conference on Machine Learning},
-year={2025},
-url={https://openreview.net/forum?id=oB5a6yIAmF}
+  yue2025holistic,
+  title={Holistic Physics Solver: Learning {PDE}s in a Unified Spectral-Physical Space},
+  author={Xihang Yue and Yi Yang and Linchao Zhu},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025},
+  url={https://openreview.net/forum?id=oB5a6yIAmF}
 }
 ```
 
 ## Acknowledge
 
 We thank the following open-sourced projects, which provide the basis of this work.
+- https://github.com/lululxvi/deepxde
 - https://github.com/neuraloperator/neuraloperator
 - https://github.com/gengxiangc/NORM
 - https://github.com/thuml/Transolver

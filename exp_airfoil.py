@@ -26,7 +26,7 @@ parser.add_argument('--ref', type=int, default=8)
 parser.add_argument('--freq_num', type=int, default=32)
 parser.add_argument('--eval', type=int, default=0)
 parser.add_argument('--save_name', type=str, default='HPM')
-parser.add_argument('--data_path', type=str, default='/data/fno/airfoil/naca')
+parser.add_argument('--data_path', type=str, default='/data/hpm/airfoil/naca')
 parser.add_argument('--ntrain', type=int, default=1000)
 args = parser.parse_args()
 eval = args.eval

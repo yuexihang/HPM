@@ -27,7 +27,7 @@ parser.add_argument('--freq_num', type=int, default=32)
 parser.add_argument('--eval', type=int, default=0)
 parser.add_argument('--ntrain', type=int, default=1000)
 parser.add_argument('--save_name', type=str, default='HPM')
-parser.add_argument('--data_path', type=str, default='/data/fno')
+parser.add_argument('--data_path', type=str, default='/data/hpm')
 
 args = parser.parse_args()
 
